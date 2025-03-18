@@ -13,3 +13,5 @@ class KeywordsTransformer:
         keyword_embeddings = self.model.encode(keyword_list)
         print(type(keyword_embeddings), keyword_embeddings.shape)
         return keyword_embeddings
+
+
